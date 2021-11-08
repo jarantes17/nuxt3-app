@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt3": "latest",
+    "primevue": "3.8.2",
+    "sass": "^1.43.4",
+    "sass-loader": "10.1.1"
+  },
+  "dependencies": {
+    "primeflex": "^3.1.0",
+    "primeicons": "^5.0.0"
+  }
+}
